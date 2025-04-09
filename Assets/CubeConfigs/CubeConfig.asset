@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bffa3c83b80b431b84d47f801934b8e3, type: 3}
+  m_Name: CubeConfig
+  m_EditorClassIdentifier: 
+  m_cubeSides:
+  - m_targetImage: {fileID: 2800000, guid: bb74f5c604d62a840a263ae89e93a44d, type: 3}
+    m_targetName: Side 1
+    m_buttonColor: {r: 0.4565648, g: 0.7684845, b: 0.88028574, a: 0.5}
+    m_buttonNames:
+    - Play
+    - Pause
+    - Back
+    - Forward
+  - m_targetImage: {fileID: 2800000, guid: d77a046c0ab5bd5499cfa6dee869a0bd, type: 3}
+    m_targetName: Side 2
+    m_buttonColor: {r: 0.4655755, g: 0.97458833, b: 0.5505344, a: 0.5}
+    m_buttonNames:
+    - Yes
+    - No
+    - Maybe
+    - Cancel
+  - m_targetImage: {fileID: 2800000, guid: 8d2776ee0c5276b4c8f11a7aacf43b61, type: 3}
+    m_targetName: Side 3
+    m_buttonColor: {r: 0.55345076, g: 0.85280025, b: 0.5061156, a: 0.5}
+    m_buttonNames:
+    - +1
+    - -1
+    - +10
+    - -10
+  - m_targetImage: {fileID: 2800000, guid: 7c55bc7a9ecfb044c8d7c8715f36a252, type: 3}
+    m_targetName: Side 4
+    m_buttonColor: {r: 0.4792084, g: 0.8780692, b: 0.84361255, a: 0.5}
+    m_buttonNames:
+    - Save
+    - Load
+    - Quit
+    - Retry
+  - m_targetImage: {fileID: 2800000, guid: c444055ef6c3bfe4bbdf067afdd2a31e, type: 3}
+    m_targetName: 'Side 5 '
+    m_buttonColor: {r: 0.80304974, g: 0.44583213, b: 0.9476586, a: 0.5}
+    m_buttonNames:
+    - Run
+    - Walk
+    - Jump
+    - Crouch
+  - m_targetImage: {fileID: 2800000, guid: 19fa6e4c05a477a428c266292e727ec3, type: 3}
+    m_targetName: Side 6
+    m_buttonColor: {r: 0.45986715, g: 0.8083535, b: 0.5077795, a: 0.5}
+    m_buttonNames:
+    - Up
+    - Down
+    - Left
+    - Right
